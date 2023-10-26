@@ -1,0 +1,81 @@
+.background-gradient{
+    background: linear-gradient(300deg ,#190482,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+@keyframes linearGradient{
+    0%{
+        background-position:0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.flex{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    width: 98.5%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    border:5px solid #C2D9FF;
+    border-radius: 20px;
+    background-color:#8E8FFA;
+}
+.flex12{
+    display: inline-flex;
+    justify-content:space-around;
+    margin-left :10px; 
+    
+    width: 70vh;
+   
+    
+
+}
+.item{
+    padding:20px;
+    width: 600px;
+    font-size: 18pt;
+}
+.email{
+    width: 300px;
+}
+.phone{
+    margin-right: 60px;
+    width: 200px;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    height: 400px;
+}
+img{
+    height: 50px;
+    width: 90px;
+    padding-left: 40px;
+   
+}
+#title{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 50px;
+}
+h3{
+    color: black!important;
+}
+@media (max-width:770px){
+    .d-flex{
+        flex-direction: column!important;
+        align-items: center;
+    }
+}

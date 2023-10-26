@@ -1,0 +1,99 @@
+.background-gradient{
+    background: linear-gradient(300deg ,#190482,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+@keyframes linearGradient{
+    0%{
+        background-position:0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.container2{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card{
+    background: linear-gradient(300deg ,#190482,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    border-radius: 30px !important;
+    
+
+}
+video{
+    margin-bottom: 0%;
+    border-radius: 30px;
+    
+}
+h5{
+    font-size: 24pt !important;
+    text-align: center;
+}
+.btn{
+    border-radius: 20px !important;
+    
+}
+.tin{
+    margin-bottom: 30px!important;
+}
+.flex34{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    border-radius: 30px;
+}
+.card:hover{
+    box-shadow:0px 0px 20px 1px black;
+    
+}
+.nav{
+    padding-right: 76%;
+}
+@media (max-width:1400px){
+    .flex34{
+        flex-direction: column!important;
+    }
+    .container2{
+        flex-direction:column;
+        justify-content: space-evenly!important;
+        align-items: center;
+        height: max-content;
+        gap: 30px;
+    }
+    
+    .card{
+        height: auto!important;
+    }
+   
+}
+
+
+@media (min-width:770px) and (max-width:1850px){
+    .nav{
+        padding-right: 0%;
+    }
+}
+@media (max-width:790px){
+    .nav{
+        padding-right: 0%;
+    }
+
+    .d-flex{
+        flex-direction: column!important;
+        align-items: center;
+    }
+}
+
+
+
+

@@ -1,0 +1,121 @@
+.background-gradient{
+    background: linear-gradient(300deg ,#190482,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+@keyframes linearGradient{
+    0%{
+        background-position:0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+img{
+    height: 200px;
+    width: auto;
+    margin: 30px;
+    border-radius: 20px;
+    border:5px solid #C2D9FF;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h1{
+    font-size:  80pt;
+}
+.Qual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 95%;
+    background: linear-gradient(300deg,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+    border-radius: 20px;
+    border: 10px solid #8E8FFA;
+}
+.school{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    margin-top: 10px;
+    height: 300px;
+    padding-right: 40px;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: -50px;
+    background: linear-gradient(300deg,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.jspm{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    margin-top: 10px;
+    height: 300px;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: -50px;
+    padding-right: 25px;
+    background: linear-gradient(300deg,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.nav{
+    padding-right: 70%;
+}
+@media (max-width:1400px){
+    .jspm{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .school{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+    }
+    .jdetail{
+        padding-left: 40px;
+    }
+    img{
+        margin-top: 30px;
+    }
+
+    .sdetail{
+        padding-left: 40px;
+    }
+   
+}
+@media (min-width:770px) and (max-width:1500px){
+    .nav{
+        padding-right: 0%;
+    }
+}
+@media (max-width:770px){
+    .d-flex{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        padding-right: 0%;
+        
+    }
+}
